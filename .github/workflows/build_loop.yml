@@ -224,7 +224,7 @@ jobs:
         run: |
 
           # Module: File: code customization description
-          curl https://github.com/kristinkand/LoopKit/commit/46530e26d942599e74ec40826f75e66b9240ff4c.patch | git apply -v --directory=Module
+          curl https://github.com/kristinkand/LoopKit/commit/92c40f20e770c837984e3bd3fc8c808eadfb00b7.patch | git apply -v --directory=Module
 
           # LoopWorkspace patches
           # -applies any patches located in the LoopWorkspace/patches/ directory
