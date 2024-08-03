@@ -259,7 +259,12 @@ jobs:
           lnl_icon \
           2002 \
           basal_lock \
-          watch_title
+          watch_title \
+          2hlollipop \
+          meal_week \
+          2002 \
+          basal_lock \
+          live_activity
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
