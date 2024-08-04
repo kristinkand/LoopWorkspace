@@ -229,7 +229,7 @@ jobs:
           fi
           
       # Module: File: Change of Lyumjev values
-          curl https://github.com/kristinkand/LoopKit/commit/92c40f20e770c837984e3bd3fc8c808eadfb00b7.patch | git apply -v --directory=LoopKit
+        #curl https://github.com/kristinkand/LoopKit/commit/92c40f20e770c837984e3bd3fc8c808eadfb00b7.patch | git apply -v --directory=LoopKit
          
           # Submodule Loop patches:
           # Template for customizing submodule Loop (changes Loop app name to "CustomLoop")
