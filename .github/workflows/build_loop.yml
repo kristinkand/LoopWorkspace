@@ -221,8 +221,8 @@ jobs:
           
       # Customize Loop: Download and apply patches
       - name: Customize Loop
-        run: |	
-		 
+        run: |
+	
           # LoopWorkspace patches
           # -applies any patches located in the LoopWorkspace/patches/ directory
           if $(ls ./patches/* &> /dev/null); then
