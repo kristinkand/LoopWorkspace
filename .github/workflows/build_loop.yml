@@ -265,9 +265,6 @@ jobs:
 
           # Module: File: Change of Lyumjev values
           curl https://github.com/kristinkand/LoopKit/commit/92c40f20e770c837984e3bd3fc8c808eadfb00b7.patch | git apply -v --directory=LoopKit
-
-          # Module: File: change of absorption time
-          curl https://github.com/kristinkand/Loop/commit/0bcc9f83da84e2368c0da6077c7a776d855d6164.patch | git apply -v --directory=Loop
           
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
