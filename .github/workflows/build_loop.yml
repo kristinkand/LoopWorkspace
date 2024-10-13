@@ -301,6 +301,9 @@ jobs:
           # Module: File: code customization description
           curl https://github.com/kristinkand/LoopKit/commit/92c40f20e770c837984e3bd3fc8c808eadfb00b7.patch | git apply -v --directory=LoopKit
 
+          # Module: File: change of absorption time
+          curl https://github.com/kristinkand/Loop/commit/13ba0207a466c5a41444e8886ca991a61f44d223.patch | git apply -v --directory=Loop
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
